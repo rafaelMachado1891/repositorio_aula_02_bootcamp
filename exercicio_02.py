@@ -1,10 +1,48 @@
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+print('exercicio_06- efetue a soma dos valores')
+primeiro_valor = float(input('digite o primeiro valor: '))
+segundo_valor = float(input('digite o segundo valor: '))
+resultado = primeiro_valor + segundo_valor
+print(resultado,'\n')
+
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+print('exercicio_07- calcule a media dos valores')
+primeiro_valor = float(input('digite o primeiro valor: '))
+segundo_valor = float(input('digite o segundo valor: '))
+resultado = primeiro_valor + segundo_valor
+media = resultado / 2 
+print(media,'\n')
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+print('exercicio_08- calcule a potencia de um numero')
+primeiro_valor = float(input('digite o valor da base: '))
+segundo_valor = float(input('digite o valor da potencia: '))
+resultado = primeiro_valor ** segundo_valor
+
+print(resultado,'\n')
+
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
+print('exercicio_09- converta a temperatura de graus celsius para Fahrenheit')
+graus_celsius = float(input('digite a temperatura em graus celsius: '))
+Fahrenheit = graus_celsius * 9/5 + 32  
+resultado = Fahrenheit
+
+print('a temperatura da sua região em Fahrenheit é: ' , resultado,'\n')
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+print('exercicio_10- calcule a area de um circulo apartir do raio')
+valor_raio = float(input('digite o valor do raio: '))
+pi= 3.14156
+resultado = valor_raio ** 2 * pi
+
+print(resultado,'\n')
+
 
 #raio_do_circulo = float(input("Digite o raio: "))
 #area_do_circulo = math.pi * raio_do_circulo ** 2
