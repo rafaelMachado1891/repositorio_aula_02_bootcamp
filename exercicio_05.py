@@ -26,5 +26,19 @@ try:
 except: 
     ValueError('o texto inserido não é um palindromo')
 # 23: Calculadora Simples
+try: 
+
+    primeiro_valor = input('insira um valor: ')
+    soma = '+'
+    subtracao = '-'
+    multiplicacao = '*'
+    divisao = '/'
+    segundo_valor = input('insira um valor: ')
+    resultado = primeiro_valor
+
+except:
+    ValueError
+
+
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
